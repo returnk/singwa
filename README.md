@@ -4,11 +4,13 @@
 
 
 2、微信支付没有做也没有代码
+
     2.1、$data = input('post.','','htmlentities');   // 将用户添加数据实体化 在thinkphp/helper.php 第三个参数是过滤方法
     
     2.2、反转换         {编辑框内容|html_entity_decode} 
     
     2.3、还可以在config.php里的默认全局过滤方法里填写 htmlentities 如果有多种可以用逗号隔开
+    
 3、老师代码中没有 微信支付的代码 Order.php Fork了一个有代码的
 
 4、在public/nav 动态加载样式后 有点问题
